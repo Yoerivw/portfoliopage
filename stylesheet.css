@@ -1,0 +1,85 @@
+body{
+background-image: url("https://images.unsplash.com/photo-1485804337201-8ca2745d2141?dpr=1&auto=compress,format&fit=crop&w=1199&h=733&q=80&cs=tinysrgb&crop=");
+    background-size: cover;
+    background-position:center;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+
+#about{
+text-align: center;
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0, 0, 0, 0.1),
+             0px 18px 13px rgba(0, 0, 0, 0.1);
+}
+#home {
+  text-align: center;
+  padding-top:15%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 13px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  font-weight:700;
+  font-size:5em;
+}
+
+hr{
+  width:250px;
+  border-color:black;
+}
+
+
+
+
+    .navbar{
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active{
+
+  background: transparent;
+
+
+
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+     color:black;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.navbar-default .navbar-brand {
+  font-size:1.5em;
+  color:black;
+}
+
+.navbar-default .navbar-nav > a  {
+  color:black;
+}
+
+.container .row #home > button{
+  margin-bottom: 14%;
+}
+
+
+@media screen and (max-width: 400px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  h1{
+    font-weight:700;
+    font-size:3em;
+  }
+
+}
+
+img {
+  float: left;
+  width:85%;
+  margin:5%;
+}
